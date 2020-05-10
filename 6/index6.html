@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Question 6</title>
+<link rel="stylesheet" href="6.css">
+<script src="6.js"></script>
+</head>
+<body>
+<h1>Student Registration Form</h1>
+<form name='registration' onSubmit="return formValidation();">
+<ul>
+<li><label for="name">Name of Student:</label></li>
+<li><input type="text" id="Nameid" name="name" size="50"></li>
+<li><label for="number" >Mobile no:</label></li>
+<li><input type="tel" id="Numberid" name="number" size="12"></li>
+<li><label for="address">Address Line:</label></li>
+<li><input type="text" id="Adressid"name="address" size="50" /></li>
+<li><label for="city" >City:</label></li>
+<li><input type="text" id="Cityid" class="ClassCity" onchange=" AutoZip(this.value)" name="city" size="50" /></li>
+<li><label for="state" >State:</label></li>
+<li><input type="text" id="Stateid" name="state"  size="50" /></li>
+<li><label for="zip">ZIP Code:</label></li>
+<li><input type="tel" id="ZIPid" name="zip" ></li>
+<li><input type="submit" name="submit" value="Submit" /></li>
+</ul>
+</form>
+</body>
+</html>
